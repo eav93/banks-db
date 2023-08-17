@@ -1,12 +1,12 @@
 {
-    "name": "monobank",
-    "country": "ua",
-    "localTitle": "Монобанк",
-    "engTitle": "Monobank",
-    "url": "https://monobank.ua/",
-    "color": "#535353",
-    "prefixes": [
-      444111,
-      537541
-    ]
-  }
+  "name": "monobank",
+  "country": "ua",
+  "localTitle": "Монобанк",
+  "engTitle": "Monobank",
+  "url": "https://monobank.ua/",
+  "color": "#535353",
+  "prefixes": [
+    444111,
+    537541
+  ]
+}

@@ -1,12 +1,14 @@
 const fs = require('fs-promise');
 const path = require('path');
-const { JSV } = require('JSV');
+const {JSV} = require('JSV');
 const jsonfile = require('jsonfile-promised');
-const { logError, logWarning } = require('./helper');
+const {logError, logWarning} = require('./helper');
 
 const linter = JSV.createEnvironment();
 
 const lintBank = (bank, bankPath, bankName, country, schema) => new Promise((resolve, reject) => {
+  bank.prefixes = [...new Set(bank.prefixes)];
+
   const report = linter.validate(bank, schema);
   bankName = bankName.replace(/\.json$/, '');
 
@@ -41,7 +43,7 @@ const lint = (files, schema) => new Promise((resolve, reject) => {
       const fullPath = path.join(__dirname, bankPath);
       return bankPromise.then(() => jsonfile.readFile(path.join(__dirname, bankPath))
         .then(bank => lintBank(bank, bankPath, bankName, country, schema))
-        .then(bank => jsonfile.writeFile(fullPath, bank, { spaces: 2 }))
+        .then(bank => jsonfile.writeFile(fullPath, bank, {spaces: 2}))
         .then(() => {
           // logSuccess(`banks/${country}/${bankName}`);
         })
