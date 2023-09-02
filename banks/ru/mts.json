@@ -1,0 +1,11 @@
+{
+  "name": "mts",
+  "country": "ru",
+  "localTitle": "МТС Банк",
+  "engTitle": "MTS-Bank",
+  "url": "https://www.mtsbank.ru/",
+  "color": "#e00414",
+  "prefixes": [
+    536672
+  ]
+}
