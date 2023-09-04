@@ -1,0 +1,11 @@
+{
+  "name": "ozon",
+  "country": "ru",
+  "localTitle": "OZON Банк",
+  "engTitle": "OZON Bank",
+  "url": "https://finance.ozon.ru/",
+  "color": "#005bff",
+  "prefixes": [
+    220432
+  ]
+}
