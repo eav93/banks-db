@@ -13,6 +13,7 @@ module.exports = [
   require('./fr/index'),
   require('./gb/index'),
   require('./ie/index'),
+  require('./in/index'),
   require('./ir/index'),
   require('./kg/index'),
   require('./kz/index'),

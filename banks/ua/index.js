@@ -3,6 +3,7 @@ module.exports = [
   require('./credit-agricole'),
   require('./diamant'),
   require('./kredobank'),
+  require('./monobank'),
   require('./oschadbank'),
   require('./otp'),
   require('./pravex'),
@@ -14,6 +15,5 @@ module.exports = [
   require('./ukrgasbank'),
   require('./ukrsibbank'),
   require('./ukrsotsbank'),
-  require('./unicreditbank'),
-  require('./monobank')
+  require('./unicreditbank')
 ];

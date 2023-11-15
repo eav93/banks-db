@@ -1,6 +1,7 @@
 module.exports = [
   require('./bcc'),
+  require('./berekebank'),
   require('./halyk'),
-  require('./berekebank.json'),
-  require('./jusan')
+  require('./jusan'),
+  require('./kaspi')
 ];
