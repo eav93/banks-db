@@ -1,0 +1,11 @@
+{
+  "name": "bankspb",
+  "country": "ru",
+  "localTitle": "Банк Санкт-Петербург",
+  "engTitle": "Sankt-Peterburg",
+  "url": "https://www.bspb.ru/",
+  "color": "#c4112f",
+  "prefixes": [
+    479769
+  ]
+}
